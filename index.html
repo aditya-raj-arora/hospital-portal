@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Appointment Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-mark">+</span>
+        <div>
+          <h1>CityCare Multispeciality Hospital</h1>
+          <p>Online Appointment Portal</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#specializations">Specialities</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#timings">Timings</a>
+        <a href="#slots">Book a Slot</a>
+        <a href="#announcements">Announcements</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">24&times;7 Emergency &middot; 1800-425-1234</p>
+      <h2>Book a consultation with our specialists in under a minute.</h2>
+      <p class="lead">Browse doctor profiles, check consultation timings and pick an available slot that suits you.</p>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="specializations" class="section">
+      <h2 class="section-title">Medical Specializations</h2>
+      <div class="specialities">
+        <div class="speciality"><span>&#9829;</span>Cardiology</div>
+        <div class="speciality"><span>&#9881;</span>Orthopaedics</div>
+        <div class="speciality"><span>&#9673;</span>Neurology</div>
+        <div class="speciality"><span>&#9786;</span>Paediatrics</div>
+        <div class="speciality"><span>&#9728;</span>Dermatology</div>
+        <div class="speciality"><span>&#9775;</span>General Medicine</div>
+      </div>
+    </section>
+
+    <section id="doctors" class="section">
+      <h2 class="section-title">Doctor Profiles</h2>
+      <div class="grid">
+        <article class="card doctor">
+          <div class="avatar">AR</div>
+          <div>
+            <h3>Dr. Arjun Rao</h3>
+            <p class="speciality-name">Cardiology</p>
+            <p>MBBS, MD, DM (Cardiology) &middot; 16 years</p>
+            <p class="lang">English, Tamil, Telugu</p>
+          </div>
+        </article>
+        <article class="card doctor">
+          <div class="avatar">MI</div>
+          <div>
+            <h3>Dr. Meera Iyer</h3>
+            <p class="speciality-name">Paediatrics</p>
+            <p>MBBS, DCH, MD (Paediatrics) &middot; 11 years</p>
+            <p class="lang">English, Tamil, Hindi</p>
+          </div>
+        </article>
+        <article class="card doctor">
+          <div class="avatar">VS</div>
+          <div>
+            <h3>Dr. Vikram Singh</h3>
+            <p class="speciality-name">Orthopaedics</p>
+            <p>MBBS, MS (Ortho) &middot; 14 years</p>
+            <p class="lang">English, Hindi</p>
+          </div>
+        </article>
+        <article class="card doctor">
+          <div class="avatar">FK</div>
+          <div>
+            <h3>Dr. Fathima Khan</h3>
+            <p class="speciality-name">Neurology</p>
+            <p>MBBS, MD, DM (Neurology) &middot; 9 years</p>
+            <p class="lang">English, Urdu, Tamil</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="timings" class="section">
+      <h2 class="section-title">Consultation Timings</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Doctor</th><th>Department</th><th>Days</th><th>Timings</th><th>Fee</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Dr. Arjun Rao</td><td>Cardiology</td><td>Mon &ndash; Fri</td><td>09:00 AM &ndash; 01:00 PM</td><td>&#8377;800</td></tr>
+            <tr><td>Dr. Meera Iyer</td><td>Paediatrics</td><td>Mon &ndash; Sat</td><td>10:00 AM &ndash; 02:00 PM</td><td>&#8377;600</td></tr>
+            <tr><td>Dr. Vikram Singh</td><td>Orthopaedics</td><td>Tue, Thu, Sat</td><td>04:00 PM &ndash; 08:00 PM</td><td>&#8377;700</td></tr>
+            <tr><td>Dr. Fathima Khan</td><td>Neurology</td><td>Mon, Wed, Fri</td><td>02:00 PM &ndash; 06:00 PM</td><td>&#8377;900</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="slots" class="section">
+      <h2 class="section-title">Available Appointment Slots &ndash; Today</h2>
+      <div class="slots-grid">
+        <div class="slot-group">
+          <h3>Dr. Arjun Rao &middot; Cardiology</h3>
+          <div class="slots">
+            <span class="slot">09:00</span>
+            <span class="slot booked">09:30</span>
+            <span class="slot">10:00</span>
+            <span class="slot">11:30</span>
+            <span class="slot booked">12:00</span>
+          </div>
+        </div>
+        <div class="slot-group">
+          <h3>Dr. Meera Iyer &middot; Paediatrics</h3>
+          <div class="slots">
+            <span class="slot booked">10:00</span>
+            <span class="slot">10:30</span>
+            <span class="slot">11:00</span>
+            <span class="slot">12:30</span>
+            <span class="slot">01:30</span>
+          </div>
+        </div>
+        <div class="slot-group">
+          <h3>Dr. Fathima Khan &middot; Neurology</h3>
+          <div class="slots">
+            <span class="slot">02:00</span>
+            <span class="slot">02:30</span>
+            <span class="slot booked">03:30</span>
+            <span class="slot">04:00</span>
+            <span class="slot booked">05:00</span>
+          </div>
+        </div>
+      </div>
+      <p class="legend"><span class="slot">Available</span><span class="slot booked">Booked</span></p>
+    </section>
+
+    <section id="announcements" class="section">
+      <h2 class="section-title">Hospital Announcements</h2>
+      <div class="announcements">
+        <article class="notice">
+          <span class="badge">Camp</span>
+          <div>
+            <h3>Free Cardiac Screening Camp &ndash; 25 October</h3>
+            <p>ECG, blood pressure and lipid profile at no cost. Register at the front desk or call the helpline.</p>
+          </div>
+        </article>
+        <article class="notice">
+          <span class="badge">New</span>
+          <div>
+            <h3>Paediatric Vaccination Wing Now Open</h3>
+            <p>Dedicated vaccination wing on the ground floor, open Monday to Saturday, 9 AM &ndash; 5 PM.</p>
+          </div>
+        </article>
+        <article class="notice">
+          <span class="badge">Info</span>
+          <div>
+            <h3>Revised OPD Visiting Hours</h3>
+            <p>From 1 November, OPD hours are 8:30 AM &ndash; 8:30 PM. Patients must report 15 minutes before their slot.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 CityCare Multispeciality Hospital &middot; Appointment Portal</p>
+      <p>Release: <span id="release">dev</span></p>
+    </div>
+  </footer>
+
+  <script>
+    fetch('version.txt')
+      .then(function (r) { return r.ok ? r.text() : 'dev'; })
+      .then(function (v) { document.getElementById('release').textContent = v.trim(); })
+      .catch(function () {});
+  </script>
+</body>
+</html>
