@@ -49,7 +49,7 @@ git push -u origin main
 
 ```bash
 docker build --build-arg APP_VERSION=v1.0.0 -t adityarajarora123/hospital-portal:v1.0.0 -t adityarajarora123/hospital-portal:latest .
-docker run -d --name hospital-local -p 8080:80 adityarajarora123/hospital-portal:v1.0.0
+docker run -d --name hospital-local -p 8091:80 adityarajarora123/hospital-portal:v1.0.0
 ```
 
 Open **http://localhost:8080**, then:
